@@ -49,5 +49,5 @@ cout << "Sign of Perpendicular and double(Not Working) " << sign(per,doubleFwd) 
 //char blah = ' ';
 //cin.get(blah);
 
-return -1;
+return 0;
 }
