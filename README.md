@@ -12,54 +12,53 @@
 
 ## Members
 
-float X;
-float Y;
+* float X;
+* float Y;
 
 ## Constructors
 
-Vector2();
-explicit Vector2(float const&newX,float const&newY);
+* Vector2();
+* explicit Vector2(float const&newX,float const&newY);
 
 ## Math
 
 ### Vector3 by Vector3 Math
 
-Vector2		operator+(const Vector2& vector) const;
-Vector2		operator-(const Vector2& vector) const;
-Vector2		operator*(const Vector2& vector) const;
-Vector2		operator/(const Vector2& vector) const;
-Vector2&	operator+=(const Vector2& vector);
-Vector2&	operator-=(const Vector2& vector);
-Vector2&	operator*=(const Vector2& vector);
-Vector2&	operator/=(const Vector2& vector);
+* Vector2		operator+(const Vector2& vector) const;
+* Vector2		operator-(const Vector2& vector) const;
+* Vector2		operator*(const Vector2& vector) const;
+* Vector2		operator/(const Vector2& vector) const;
+* Vector2&	operator+=(const Vector2& vector);
+* Vector2&	operator-=(const Vector2& vector);
+* Vector2&	operator*=(const Vector2& vector);
+* Vector2&	operator/=(const Vector2& vector);
 
 ### Vector3 by Float Math
 
-Vector2		operator-() const;
-Vector2		operator+(float const&num) const;
-Vector2		operator-(float const&num) const;
-Vector2		operator*(float const&num) const;
-Vector2		operator/(float const&num) const;
-Vector2&	operator+=(float const&num);
-Vector2&	operator-=(float const&num);
-Vector2&	operator*=(float const&num);
-Vector2&	operator/=(float const&num);
+* Vector2		operator-() const;
+* Vector2		operator+(float const&num) const;
+* Vector2		operator-(float const&num) const;
+* Vector2		operator*(float const&num) const;
+* Vector2		operator/(float const&num) const;
+* Vector2&	operator+=(float const&num);
+* Vector2&	operator-=(float const&num);
+* Vector2&	operator*=(float const&num);
+* Vector2&	operator/=(float const&num);
 
 ## Boolean Equals Operators
 
-bool		operator==(const Vector2& vector) const;
-bool		operator!=(const Vector2& vector) const;
+* bool		operator==(const Vector2& vector) const;
+* bool		operator!=(const Vector2& vector) const;
 
 ## Static Predefines
 
-static const Vector2 Zero;
-static const Vector2 One;
+* static const Vector2 Zero;
+* static const Vector2 One;
 
 ## Print out
 
-friend std::ostream& operator<< (std::ostream& ofs, const Vector2& vector);
+* friend std::ostream& operator<< (std::ostream& ofs, const Vector2& vector);
 
-Based off source code for Conversations provided by Daniel Gultsch
 
 # DONATE
 
