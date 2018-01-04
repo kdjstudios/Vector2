@@ -44,11 +44,10 @@ cout << "Distance from Double Forward to Reflection: " << (float)AO::Vector2::di
 Vector2 per( perp(backward) );
 cout << "Perpendicular to 'backward':" << per << '\n';
 cout << "Sign of Perpendicular and double(Not Working) " << sign(per,doubleFwd) << '\n';
-
-cout << "Press any key to quit. ";
-
-char blah = ' ';
-cin.get(blah);
+// uncomment the following three lines for user input before closing
+//cout << "Press any key to quit. ";
+//char blah = ' ';
+//cin.get(blah);
 
 return -1;
 }
