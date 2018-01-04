@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp -o hello
+	g++ main.cpp -o main
