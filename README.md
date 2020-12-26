@@ -3,8 +3,8 @@
 <p align="center">This is a simple implementation of a Vector2 object in C++. Features are listed below</p>
 
 <p align="center">
-    <a href="https://travis-ci.org/TheKyleJohnson90/Vector2">
-        <img src="https://travis-ci.org/TheKyleJohnson90/Vector2.svg?branch=master" alt="build status">
+    <a href="https://travis-ci.org/kdjstudios/Vector2">
+        <img src="https://travis-ci.org/kdjstudios/Vector2.svg?branch=master" alt="build status">
     </a>
 </p>
 
